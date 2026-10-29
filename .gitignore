@@ -1,0 +1,29 @@
+
+# Environment and secret configuration
+.env
+.env.*
+!.env.example
+config/secrets.php
+config/database.php
+# Database backups and dumps
+*.sql
+*.sql.zip
+*.sql.gz
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# IDE and operating system files
+.vscode/
+.idea/
+
+# Dependencies and generated files
+node_modules/
+vendor/
+
+# Local server files
+.htaccess.local
